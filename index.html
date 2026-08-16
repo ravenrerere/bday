@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>For Lara "Tanga" Castro Hernandez</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- ==========================================
+     LOADING / OPENING SCREEN
+========================================== -->
+
+<div id="openingScreen">
+
+    <div class="envelope-container">
+
+        <div class="envelope">
+            💌
+        </div>
+
+        <h1>
+            You have a message...
+        </h1>
+
+        <p>
+            But you'll have to open it first.
+        </p>
+
+        <button id="openButton">
+            Open 💗
+        </button>
+
+    </div>
+
+</div>
+
+
+
+<!-- ==========================================
+     NAVIGATION
+========================================== -->
+
+<nav id="navbar">
+
+    <div class="logo">
+        For Lara
+    </div>
+
+    <div class="nav-links">
+
+        <a href="#home">Home</a>
+
+        <a href="#inspiration">Inspiration</a>
+
+        <a href="#message">Message</a>
+
+        <a href="#memories">Memories</a>
+
+        <a href="#timeline">Timeline</a>
+
+        <a href="#surprise">Surprise</a>
+
+    </div>
+
+</nav>
+
+<!-- ==========================================
+     COUNTDOWN
+========================================== -->
+
+<section class="countdown-section">
+
+    <p class="section-label">
+        THE BIG DAY
+    </p>
+
+    <h2>
+        Counting down to your birthday 🎂
+    </h2>
+
+    <div class="countdown">
+
+        <div class="time-box">
+
+            <span id="days">00</span>
+
+            <small>Days</small>
+
+        </div>
+
+
+        <div class="time-box">
+
+            <span id="hours">00</span>
+
+            <small>Hours</small>
+
+        </div>
+
+
+        <div class="time-box">
+
+            <span id="minutes">00</span>
+
+            <small>Minutes</small>
+
+        </div>
+
+
+        <div class="time-box">
+
+            <span id="seconds">00</span>
+
+            <small>Seconds</small>
+
+        </div>
+
+    </div>
+
+    <p id="birthdayMessage" class="birthday-message"></p>
+
+</section> 
+
+<!-- ==========================================
+     HERO
+========================================== -->
+
+<section id="home" class="hero">
+
+    <div id="particles"></div>
+
+    <div class="hero-content">
+
+        <p class="eyebrow">
+            ✨ TODAY IS YOUR DAY ✨
+        </p>
+
+        <h1>
+            Happy Birthday
+            <span>LARA</span>
+        </h1>
+
+        <p class="hero-description">
+            can't go to your birthday so i hope this counts as a gift LOL
+        </p>
+
+        <button
+            class="primary-button"
+            onclick="scrollToSection('message')">
+
+            There's something for you 💌
+
+        </button>
+
+    </div>
+
+
+    <div class="scroll-indicator">
+
+        <span>Scroll to explore</span>
+
+        <div class="arrow">
+            ↓
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================
+     INSPIRATION / MOTIVATIONAL QUOTES SECTION
+========================================== -->
+
+<section id="inspiration" class="inspiration-section">
+
+    <div class="section-heading">
+
+        <p class="section-label">
+            WORDS FOR YOUR HEART
+        </p>
+
+        <h2>
+            You are stronger than you know!!!
+        </h2>
+
+        <p class="inspiration-subtitle">
+            For the days when things get heavy — remember these.
+            My neatly picked quotes or whatev for you!
+        </p>
+
+    </div>
+
+    <div class="quotes-grid">
+
+        <div class="quote-card">
+            <div class="quote-icon">🌟</div>
+            <blockquote>"There's no need to rush. Everything will work out when the time is right, you don't need to figure it all out at once. :>"</blockquote>
+            <cite></cite>
+        </div>
+
+        <div class="quote-card">
+            <div class="quote-icon">🔥</div>
+            <blockquote>"It does not matter how slowly you go as long as you do not stop."</blockquote>
+            <cite>— Confucius</cite>
+        </div>
+
+        <div class="quote-card">
+            <div class="quote-icon">💪</div>
+            <blockquote>"You are doing your best and that's enough, you're gonna get through this. hwaiting!"</blockquote>
+            <cite>— I dont know if anyone quotes this but i wrote it myself</cite>
+        </div>
+
+        <div class="quote-card">
+            <div class="quote-icon">🌻</div>
+            <blockquote>"Please live your life the way that you want because people will always have something to say."</blockquote>
+            <cite></cite>
+        </div>
+
+        <div class="quote-card">
+            <div class="quote-icon">🌈</div>
+            <blockquote>"And there's so much to admire about you. you're a blessing and you're doing such a good job. keep going 'cause you're doing better than you think. :>"</blockquote>
+            <cite></cite>
+        </div>
+
+        <div class="quote-card">
+            <div class="quote-icon">✨</div>
+            <blockquote>"Success is not final, failure is not fatal: it is the courage to continue that counts."</blockquote>
+            <cite>— Winston Churchill</cite>
+        </div>
+
+        <div class="quote-card">
+            <div class="quote-icon">🌊</div>
+            <blockquote>"If by any chance you don't believe in yourself anymore, borrow my belief in you until you can believe in yourself again."</blockquote>
+            <cite></cite>
+        </div>
+
+        <div class="quote-card">
+            <div class="quote-icon">🌺</div>
+            <blockquote>"The future belongs to those who believe in the beauty of their dreams."</blockquote>
+            <cite>— Eleanor Roosevelt</cite>
+        </div>
+
+        <div class="quote-card">
+            <div class="quote-icon">🌅</div>
+            <blockquote>"Act as if what you do makes a difference. It does."</blockquote>
+            <cite>— William James</cite>
+        </div>
+
+        <div class="quote-card">
+            <div class="quote-icon">⭐</div>
+            <blockquote>"The world doesnt slow down for you but you could slow down for yourself."</blockquote>
+            <cite></cite>
+        </div>
+
+        <div class="quote-card">
+            <div class="quote-icon">🌿</div>
+            <blockquote>"The struggle you're in today is developing the strength you need for tomorrow."</blockquote>
+            <cite></cite>
+        </div>
+
+        <div class="quote-card">
+            <div class="quote-icon">🦋</div>
+            <blockquote>"Sometimes the smallest step in the right direction ends up being the biggest step of your life."</blockquote>
+            <cite>— Naeem Callaway</cite>
+        </div>
+
+        <div class="quote-card">
+            <div class="quote-icon">💖</div>
+            <blockquote>"You didn't come this far to only come this far."</blockquote>
+            <cite></cite>
+        </div>
+
+        <div class="quote-card">
+            <div class="quote-icon">🌙</div>
+            <blockquote>"You're tired, struggling but you're not giving up and I am so so proud of you for that"</blockquote>
+            <cite>— me</cite>
+        </div>
+
+        <div class="quote-card">
+            <div class="quote-icon">🌸</div>
+            <blockquote>"Please do not ever do it, you know what I mean"</blockquote>
+            <cite>— me again</cite>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================
+     PERSONAL MESSAGE (LOCKED)
+========================================== -->
+
+<section id="message" class="message-section">
+
+    <div class="section-heading">
+
+        <p class="section-label">
+            A LITTLE MESSAGE
+        </p>
+
+        <h2>
+            Something I wanted to tell you 💌
+        </h2>
+
+    </div>
+
+
+    <div class="letter" id="messageLetter">
+
+        <div class="letter-top">
+            ✉️
+        </div>
+
+
+        <div class="letter-content">
+
+            <p>
+                Dear Lara,
+            </p>
+
+            <p>
+                Happy birthday! 🎂
+            </p>
+
+            <p>
+              happy 18th birthday te!!<br>
+
+Grabe, u're officially stepping into adulthood—but honestly, you've been handling life like it's nothing. I just wanna say how proud I am of you. u're one of the toughest and smartest people I know. I've seen (or at least just in social media) how much you've gone through, the things you've had to face, and yet here you are—still standing, still fighting, still shining in your own way.<br><br>
+Hindi madali yung pinagdaanan mo the past years, and not everyone would come out of it the way you did. Ang lakas mo, sobra. And even on days na you probably don't feel like it, just know that you inspire people more than you realize—especially me. You've got this strength and this sharp mind that can take you anywhere you wanna go, especially in ur upcoming college years.
+<br><br>
+Turning 18 isn't just about you being in "legal age" or whatsoever, it's about you writing own your story and stepping into your future. And if there's one thing I'm sure about, it's that your future is gonna be something amazing, because you're the one creating it. I think I've known you long enough to say that I know that you'd be successful in life no matter what path you'd take.
+<br><br>
+I hope this year brings you more peace, more wins, and the kind of happiness that actually stays. You deserve all the good things in life kahit masama ugali mo—real, genuine, and lasting ones. Don't ever doubt that.
+<br><br>
+And no matter where life takes you, I'll always be here—cheering for you, supporting you, and reminding you how incredible you are when you forget. I may not be by your side like literally but I'll always be by your side. I may not have the luxury to offer you my shoulders whenever you're crying but I will always lend you my ears everytime you need someone to talk to.
+<br><br>
+Enjoy your day, celebrate yourself, and don't hold back. You've earned every bit of it. Hope you'd still have your debut party even if i wouldn't be able to come.
+<br><br>
+Happy happy happiest birthday, Lara. i am so, so proud of u!!
+<br><br>
+            </p>
+
+            <p class="signature">
+                — Raven pogi (04/22/26)
+            </p>
+
+        </div>
+
+        <!-- Lock overlay -->
+        <div class="lock-overlay" id="messageLock">
+            <span>🔒</span>
+            <p>This message will unlock on your birthday!</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================
+     MEMORIES (LOCKED)
+========================================== -->
+
+<section id="memories" class="memories-section">
+
+    <div class="section-heading">
+
+        <p class="section-label">
+          I got no pictures of you or even both of us so...(this should be our memories' section)
+            
+        </p>
+
+        <h2>
+            Ur pictures
+        </h2>
+
+        <p>
+            I dont even have pics of you so got em from ur ig LOL
+        </p>
+
+    </div>
+
+
+    <div class="polaroid-gallery" id="memoriesGallery">
+
+
+        <div class="polaroid rotate-left">
+
+            <img src="images/photo1.png"
+                alt="Memory 1">
+
+            <div class="caption">
+              wow
+            </div>
+
+        </div>
+
+
+        <div class="polaroid rotate-right">
+
+            <img src="images/photo2.png"
+                alt="Memory 2">
+
+            <div class="caption">
+                wow
+            </div>
+
+        </div>
+
+
+        <div class="polaroid rotate-left">
+
+            <img src="images/photo3.png"
+                alt="Memory 3">
+
+            <div class="caption">
+                wow
+            </div>
+
+        </div>
+
+
+        <div class="polaroid rotate-right">
+
+            <img src="images/photo4.jpg"
+                alt="Memory 4">
+
+            <div class="caption">
+                wow
+            </div>
+
+        </div>
+
+
+        <div class="polaroid rotate-left">
+
+            <img src="images/photo5.jpg"
+                alt="Memory 5">
+
+            <div class="caption">
+                wow
+            </div>
+
+        </div>
+
+        <!-- Lock overlay -->
+        <div class="lock-overlay gallery-lock" id="memoriesLock">
+            <span>🔒</span>
+            <p>Memories will appear on your birthday!</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================
+     TIMELINE (LOCKED)
+========================================== -->
+
+<section id="timeline" class="timeline-section">
+
+    <div class="section-heading">
+
+        <p class="section-label">
+            OUR STORY
+        </p>
+
+        <h2>
+            A tiny timeline 🕰️
+        </h2>
+
+    </div>
+
+
+    <div class="timeline" id="timelineContainer">
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot">
+                ❤️
+            </div>
+
+            <div class="timeline-card">
+
+                <span>
+                    idk when was that
+                </span>
+
+                <h3>
+                    The Beginning
+                </h3>
+
+                <p>
+                    I added you on ML and started spamming words that i dont even remember lmao
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot">
+                😂
+            </div>
+
+            <div class="timeline-card">
+
+                <span>
+                    idk when was this either
+                </span>
+
+                <h3>
+                    The Chaos Begins
+                </h3>
+
+                <p>
+                    started playing ML together with someone we all wouldnt want to remember. then i blocked you LOL
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot">
+                📸
+            </div>
+
+            <div class="timeline-card">
+
+                <span>
+                    ths was when i got her and then break up after months
+                </span>
+
+                <h3>
+                    Another Chapter
+                </h3>
+
+                <p>
+                    i unblocked you and we started gossiping about each other's lives again
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot">
+                🎂
+            </div>
+
+            <div class="timeline-card">
+
+                <span>
+                    this year 2026
+                </span>
+
+                <h3>
+                    Your Birthday
+                </h3>
+
+                <p>
+                    yay! its your 18th birthday. only thing we're wishing for is for you to be happy!!
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Lock overlay -->
+        <div class="lock-overlay timeline-lock" id="timelineLock">
+            <span>🔒</span>
+            <p>Timeline will unlock on your birthday!</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================
+     INTERACTIVE QUESTIONS (LOCKED)
+========================================== -->
+
+<section class="question-section" id="questionSection">
+
+    <p class="section-label">
+        ONE IMPORTANT QUESTION
+    </p>
+
+    <h2>
+        Are you having a good birthday?
+    </h2>
+
+
+    <div class="question-buttons">
+
+        <button
+            id="yesButton"
+            class="primary-button">
+
+            YES! 🎉
+
+        </button>
+
+
+        <button
+            id="noButton"
+            class="secondary-button">
+
+            No 😭
+
+        </button>
+
+    </div>
+
+
+    <p id="questionResponse"></p>
+
+    <!-- Lock overlay -->
+    <div class="lock-overlay question-lock" id="questionLock">
+        <span>🔒</span>
+        <p>This will unlock on your birthday!</p>
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================
+     GIFT (LOCKED)
+========================================== -->
+
+<section id="surprise" class="gift-section">
+
+    <p class="section-label">
+        ONE LAST THING
+    </p>
+
+    <h2>
+        I have one more surprise for you...
+    </h2>
+
+    <p>
+        Click the gift. 🎁
+    </p>
+
+
+    <button id="giftButton" class="gift-button">
+
+        🎁
+
+    </button>
+
+
+    <div id="giftContent" class="gift-content">
+
+        <div class="gift-icon">
+            ✨
+        </div>
+
+        <h3>
+            Surprise!
+        </h3>
+
+        <p>
+            send me your gcash number and ill send you 1K
+        </p>
+
+        <p>
+            HAPPY HAPPY BIRTHDAYYYY!!!!
+        </p>
+
+    </div>
+
+    <!-- Lock overlay -->
+    <div class="lock-overlay gift-lock" id="giftLock">
+        <span>🔒</span>
+        <p>Gift unlocks on your birthday!</p>
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================
+     SECRET MESSAGE (LOCKED)
+========================================== -->
+
+<section class="secret-section" id="secretSection">
+
+    <p class="section-label">
+        P.S.
+    </p>
+
+    <h2>
+        Don't click this button.
+    </h2>
+
+    <button id="secretButton"
+            class="secret-button">
+
+        Definitely don't click 👀
+
+    </button>
+
+
+    <div id="secretMessage">
+
+        <h3>
+            LOL
+        </h3>
+
+        <p>
+            wag nga pindutin e
+        </p>
+
+        <p>
+            Anyway...
+        </p>
+
+        <h2>
+            Happy Birthday ❤️
+        </h2>
+
+    </div>
+
+    <!-- Lock overlay -->
+    <div class="lock-overlay secret-lock" id="secretLock">
+        <span>🔒</span>
+        <p>Secret message unlocks on your birthday!</p>
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================
+     FINAL
+========================================== -->
+
+<section class="final-section">
+
+    <div class="final-content">
+
+        <p class="section-label">
+            AND FINALLY...
+        </p>
+
+        <h2>
+            Happy Birthday,
+            <span>LARA</span>! 🎂
+        </h2>
+
+        <p>
+            May this next chapter be filled with
+            happiness, laughter, adventures,
+            and lots of good memories.
+        </p>
+
+        <button id="celebrateButton"
+                class="primary-button">
+
+            Celebrate! 🎉
+
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================
+     MUSIC BUTTON
+========================================== -->
+
+<button id="musicButton"
+        class="music-button">
+
+    🎵
+
+</button>
+
+<audio id="birthdayMusic"
+       loop>
+
+    <source
+        src="music/birthday-song.mp3"
+        type="audio/mpeg">
+
+</audio>
+
+
+
+<!-- ==========================================
+     FOOTER
+========================================== -->
+
+<footer>
+
+    <p>
+        its me raven
+    </p>
+
+    <p>
+        For LARA'S 18th BIRTHDAY • 2026
+    </p>
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
