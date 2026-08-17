@@ -1,6 +1,3 @@
-/* ==========================================
-   OPENING SCREEN
-========================================== */
 
 const openButton =
     document.getElementById("openButton");
@@ -18,11 +15,6 @@ openButton.addEventListener("click", () => {
 });
 
 
-
-/* ==========================================
-   SMOOTH SCROLL
-========================================== */
-
 function scrollToSection(id) {
 
     const section =
@@ -34,23 +26,6 @@ function scrollToSection(id) {
 
 }
 
-
-
-/* ==========================================
-   BIRTHDAY COUNTDOWN + UNLOCK
-========================================== */
-
-/*
-    CHANGE THIS DATE.
-
-    Format:
-
-    YYYY-MM-DDTHH:MM:SS
-
-    Example:
-
-    2026-09-06T00:00:00
-*/
 
 const birthdayDate =
     new Date("2026-09-06T00:00:00");
@@ -148,27 +123,22 @@ function updateCountdown() {
 
 
 function unlockAllContent() {
-    // Unlock message
+
     const messageLock = document.getElementById("messageLock");
     if (messageLock) messageLock.style.display = "none";
     
-    // Unlock memories
     const memoriesLock = document.getElementById("memoriesLock");
     if (memoriesLock) memoriesLock.style.display = "none";
     
-    // Unlock timeline
     const timelineLock = document.getElementById("timelineLock");
     if (timelineLock) timelineLock.style.display = "none";
     
-    // Unlock question
     const questionLock = document.getElementById("questionLock");
     if (questionLock) questionLock.style.display = "none";
-    
-    // Unlock gift
+
     const giftLock = document.getElementById("giftLock");
     if (giftLock) giftLock.style.display = "none";
     
-    // Unlock secret
     const secretLock = document.getElementById("secretLock");
     if (secretLock) secretLock.style.display = "none";
 }
@@ -180,11 +150,6 @@ setInterval(
     1000
 );
 
-
-
-/* ==========================================
-   YES / NO QUESTION
-========================================== */
 
 const yesButton =
     document.getElementById("yesButton");
@@ -222,10 +187,6 @@ noButton.addEventListener("click", () => {
 });
 
 
-
-/* ==========================================
-   GIFT
-========================================== */
 
 const giftButton =
     document.getElementById("giftButton");
@@ -266,7 +227,7 @@ secretButton.addEventListener("click", () => {
     secretMessage.classList.add("show");
 
     secretButton.textContent =
-        "Okay okay, you found it 😂";
+        "EDI WOWWWWW";
 
     createConfetti();
 
@@ -380,12 +341,6 @@ function createConfetti() {
 
 }
 
-
-
-/* ==========================================
-   FINAL CELEBRATION
-========================================== */
-
 const celebrateButton =
     document.getElementById(
         "celebrateButton"
@@ -410,9 +365,6 @@ celebrateButton.addEventListener(
 
 
 
-/* ==========================================
-   MUSIC
-========================================== */
 
 const musicButton =
     document.getElementById(
@@ -454,12 +406,6 @@ musicButton.addEventListener(
 
     }
 );
-
-
-
-/* ==========================================
-   POLAROID CLICK
-========================================== */
 
 const polaroids =
     document.querySelectorAll(
